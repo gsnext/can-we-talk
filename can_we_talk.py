@@ -12,6 +12,7 @@ Options:
 # This is the module required for everything CAN bus. It is not default on most systems though
 # and needs to be installed with something like `pip install python-can`
 import can
+#Adding some changes for gsnext work
 # This is a requirement for this tool's command line argument handling.
 from docopt import docopt
 # This module exposes everything we need to set wait and timeout intervals.
